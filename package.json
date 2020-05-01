@@ -17,7 +17,7 @@
   "description": "``` npm run build ```",
   "main": "src/minilp.bs.js",
   "dependencies": {
-    "@zrho/rust-minilp": "../rust-minilp/pkg"
+    "@zrho/rust-minilp": "0.1.0"
   },
   "repository": {
     "type": "git",
