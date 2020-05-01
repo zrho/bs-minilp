@@ -1,0 +1,30 @@
+{
+  "name": "@zrho/bs-minilp",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Lukas Heidemann <lukas@heidemann.me>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "bs-platform": "^7.2.0"
+  },
+  "description": "``` npm run build ```",
+  "main": "src/minilp.bs.js",
+  "dependencies": {
+    "@zrho/rust-minilp": "../rust-minilp/pkg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrho/bs-minilp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrho/bs-minilp/issues"
+  },
+  "homepage": "https://github.com/zrho/bs-minilp#readme"
+}
